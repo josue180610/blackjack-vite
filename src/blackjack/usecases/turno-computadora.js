@@ -25,7 +25,6 @@ export const turnoComputadora = ( divCartas,puntosHTML,deck,puntosMinimos ) => {
 
         puntosComputadora = puntosComputadora + valorCarta( carta );
         puntosHTML[1].innerText = puntosComputadora;
-        
         // <img class="carta" src="assets/cartas/2C.png">
         divCartas.append(imprimirCarta(carta));
         if( puntosMinimos > 21 ) {
